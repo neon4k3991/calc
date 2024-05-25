@@ -35,17 +35,11 @@ function pressDigitButton(e){
 }
 document.getElementById("clear_but").addEventListener("click", clear)
 function clear() {
-     input.value = "0"
-     num_txt = 0
-     enter_string.textContent = " "
-    a = 0
-    b = 0
+    location.reload() 
     }
 
 
  function sign_plus(event){
-    
-
     if (a === undefined){
         a = Number(input.value)
     }
